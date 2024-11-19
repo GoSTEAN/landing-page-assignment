@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TokenVerse</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans">
+  <!-- Header and Navigation Bar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">TokenVerse</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Tokens</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-900 text-white py-20">
+    <div class="container mx-auto flex flex-col items-center justify-center space-y-6">
+      <h1 class="text-4xl font-bold">Welcome to TokenVerse</h1>
+      <p class="text-lg">Discover the future of digital assets through our innovative token solutions.</p>
+      <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Explore Tokens</button>
+    </div>
+  </section>
+
+  <!-- About/Features Section -->
+  <section id="about" class="py-16 bg-gradient-to-b from-gray-50 to-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Our Powerful Features</h2>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Token Creation Card -->
+            <div class="bg-white rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300 overflow-hidden">
+                <div class="relative h-40 overflow-hidden">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2091/2091665.png" 
+                         alt="Token Creation Platform" 
+                         class="w-full h-full object-contain p-4">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Token Creation</h3>
+                    <p class="text-gray-600 text-sm mb-2">Create and launch your custom tokens with ease using our intuitive platform.</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-700 font-medium text-sm">Learn More →</a>
+                </div>
+            </div>
+
+            <!-- Token Trading Card -->
+            <div class="bg-white rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300 overflow-hidden">
+                <div class="relative h-40 overflow-hidden">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1067/1067357.png" 
+                         alt="Trading Platform Interface" 
+                         class="w-full h-full object-contain p-4">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Token Trading</h3>
+                    <p class="text-gray-600 text-sm mb-2">Trade tokens securely with real-time pricing and advanced order types.</p>
+                    <a href="#" class="text-green-500 hover:text-green-700 font-medium text-sm">Learn More →</a>
+                </div>
+            </div>
+
+            <!-- Token Security Card -->
+            <div class="bg-white rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300 overflow-hidden">
+                <div class="relative h-40 overflow-hidden">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2891/2891517.png" 
+                         alt="Security Infrastructure" 
+                         class="w-full h-full object-contain p-4">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Token Security</h3>
+                    <p class="text-gray-600 text-sm mb-2">Industry-leading security with multi-sig wallets and cold storage.</p>
+                    <a href="#" class="text-purple-500 hover:text-purple-700 font-medium text-sm">Learn More →</a>
+                </div>
+            </div>
+
+            <!-- Token Analytics Card -->
+            <div class="bg-white rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300 overflow-hidden">
+                <div class="relative h-40 overflow-hidden">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4280/4280211.png" 
+                         alt="Analytics Dashboard" 
+                         class="w-full h-full object-contain p-4">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-bold mb-2">Token Analytics</h3>
+                    <p class="text-gray-600 text-sm mb-2">Advanced analytics with real-time tracking and market insights.</p>
+                    <a href="#" class="text-red-500 hover:text-red-700 font-medium text-sm">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="bg-dark py-5">
+    <div class="container">
+      <h2 class="text-white mb-4">What Our Token Holders Say</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card bg-secondary text-white">
+              <div class="card-body text-center p-4">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" 
+                     class="rounded-circle mx-auto mb-3" style="width: 80px;">
+                <h5 class="card-title">Alex Chen</h5>
+                <p class="card-text">"TokenVerse made token creation and management incredibly simple!"</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-secondary text-white">
+              <div class="card-body text-center p-4">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" 
+                     class="rounded-circle mx-auto mb-3" style="width: 80px;">
+                <h5 class="card-title">Sarah Williams</h5>
+                <p class="card-text">"Best platform for secure token trading and analytics."</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-secondary text-white">
+              <div class="card-body text-center p-4">
+                <img src="https://randomuser.me/api/portraits/men/68.jpg" 
+                     class="rounded-circle mx-auto mb-3" style="width: 80px;">
+                <h5 class="card-title">David Kumar</h5>
+                <p class="card-text">"Their token security features are unmatched in the industry."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Gallery -->
+  <section id="gallery" class="py-12">
+    <div class="container mx-auto">
+      <h2 class="text-2xl font-bold mb-8">Featured Tokens</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden p-4">
+          <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" 
+               alt="Bitcoin Logo" 
+               class="w-full h-56 object-contain">
+          <div class="p-4 text-center">
+            <h3 class="font-bold text-xl">Bitcoin (BTC)</h3>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden p-4">
+          <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" 
+               alt="Ethereum Logo" 
+               class="w-full h-56 object-contain">
+          <div class="p-4 text-center">
+            <h3 class="font-bold text-xl">Ethereum (ETH)</h3>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden p-4">
+          <img src="https://cryptologos.cc/logos/cardano-ada-logo.png" 
+               alt="Cardano Logo" 
+               class="w-full h-56 object-contain">
+          <div class="p-4 text-center">
+            <h3 class="font-bold text-xl">Cardano (ADA)</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enhanced Footer -->
+  <footer class="bg-gray-900 text-white">
+    <!-- Main Footer -->
+    <div class="container mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- Company Info -->
+            <div class="space-y-4">
+                <h3 class="text-2xl font-bold">TokenVerse</h3>
+                <p class="text-gray-400">Empowering the future of digital assets through innovative token solutions.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white">
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.298 24 12c0-6.627-5.373-12-12-12"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Token Creation</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Trading Platform</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Security</a></li>
+                </ul>
+            </div>
+
+            <!-- Support -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Support</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white">Help Center</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Documentation</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">API Reference</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4">Stay Updated</h4>
+                <p class="text-gray-400 mb-4">Subscribe to our newsletter for the latest updates.</p>
+                <form class="flex flex-col space-y-2">
+                    <input type="email" placeholder="Enter your email" 
+                           class="px-4 py-2 bg-gray-800 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition duration-300">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="border-t border-gray-800">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-400 text-sm">
+                    &copy; 2024 TokenVerse. All rights reserved.
+                </div>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Add Bootstrap JS before closing body tag -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
